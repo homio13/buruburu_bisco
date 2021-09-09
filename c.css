@@ -4,8 +4,13 @@
   padding-top: 200px;
 }
 
+.bibe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .bibe:hover {
-  display: block;
   cursor: pointer;
   animation: hurueru 0.1s infinite;
 }
